@@ -1,0 +1,34 @@
+.list1{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 50px;
+    
+}
+.list1 li{
+    background-color: white;
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+    height: 45px;
+    /* margin-bottom: 20px; */
+}
+/* .list li span i{
+    position: absolute;
+    right: 40px;
+} */
+.list1 li.listStyle{
+    border-right: 5px solid #2da3ad;
+    
+}
+.list1 li.listStyle:hover {
+    border-right: 5px solid #2da3ad;
+    background-color: #2da3ad;
+    color: #f7f7f7
+}
+.delbtn{
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
